@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite" verbose = "2">
+  <test name="Swag Labs Test Cases">
+    <classes>
+      <class name="com.hybrid.testcases.LoginPageTC"/>
+       <!-- <class name="com.hybrid.testcases.ProductsPageTC"/>
+        <class name="com.hybrid.testcases.YourCartPageTC"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

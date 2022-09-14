@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swag Labs automation Test Suite" verbose="2">
+
+	<listeners>
+		<listener class-name="com.hybrid.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Swag Labs Test Cases" preserve-order="true">
+		<classes>
+			<class name="com.hybrid.testcases.LoginPageTC" />
+			<class name="com.hybrid.testcases.ProductsPageTC" />
+			<class name="com.hybrid.testcases.YourCartPageTC" />
+			<class name="com.hybrid.testcases.CheckoutPageTC" />
+			<class name="com.hybrid.testcases.CheckoutOverviewPageTC" />
+			<class name="com.hybrid.testcases.CheckoutCompletePageTC" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

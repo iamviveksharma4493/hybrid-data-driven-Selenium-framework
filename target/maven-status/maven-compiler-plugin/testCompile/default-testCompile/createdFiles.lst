@@ -1,0 +1,6 @@
+com\hybrid\testcases\ProductsPageTC.class
+com\hybrid\testcases\CheckoutOverviewPageTC.class
+com\hybrid\testcases\CheckoutPageTC.class
+com\hybrid\testcases\LoginPageTC.class
+com\hybrid\testcases\CheckoutCompletePageTC.class
+com\hybrid\testcases\YourCartPageTC.class
