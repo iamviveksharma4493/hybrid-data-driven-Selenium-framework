@@ -8,7 +8,7 @@ import com.hybrid.base.TestBase;
 
 public class CheckoutCompletePage extends TestBase {
 	
-	@FindBy (xpath="//img[@class='pony_express']")
+	@FindBy (xpath="//img[@class='pony_express123']")
 	WebElement checkoutCompletePageLogo;
 	
 	
